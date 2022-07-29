@@ -1,0 +1,33 @@
+.subtitle
+{
+    color: rgb(30, 0, 94);
+}
+
+body
+{
+    background: rgb(255, 166, 0);
+}
+
+
+#title
+{
+    color: rgb(14, 10, 209);
+}
+
+
+.special
+{
+    background-color:rgb(227, 25, 25);
+}
+
+.list   
+{
+    background: rgb(201, 207, 52) ;
+}
+
+#service-image   
+{
+    height: 400px;
+    width: 70%;
+    background: url(https://www.w3schools.com/css/img_5terre_wide.jpg);
+}
