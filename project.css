@@ -1,13 +1,29 @@
 .subtitle
 {
     color: rgb(30, 0, 94);
+    font-weight: 1000;
 }
 
 body
 {
-    background: rgb(255, 166, 0);
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+    
+    background: rgba(255, 166, 0, 0.7);
+    font-size: 0.9em;
+    text-align: justify;
+    font-family: cursive;
+   
 }
 
+.para-text
+{
+    font-family: "DDCUchenRegular";
+}
 
 #title
 {
@@ -22,12 +38,106 @@ body
 
 .list   
 {
-    background: rgb(201, 207, 52) ;
+    background: rgba(100, 100, 10, 0.4) ;
 }
 
-#service-image   
+#service-image  
 {
-    height: 400px;
-    width: 70%;
-    background: url(https://www.w3schools.com/css/img_5terre_wide.jpg);
+  /*  height: 225px;
+    width: 11%;
+   /* background: url(../zoomer/download.png);
+   /* background-color: steelblue;*/
+    /*background: radial-gradient(red 50%,steelblue 55%    ,blue 60%, violet 65% , purple 70%   );*/
+    background-size: cover;
+}
+
+
+.link   
+{
+    text-decoration: underline;
+}
+
+.italic
+{
+    font-style: italic;
+}
+
+
+#store-image
+{
+    height: 300px;
+    width: 50%;
+
+    border: 5px solid rgb(67, 50, 100);
+    padding: 0.3%;
+
+    
+}
+
+.container
+{
+    background-color: blue;
+    margin: 10px;
+    display: table-column-group;
+    float: left;
+   
+
+}
+
+.container-item
+{
+    background-color:rgb(255, 153, 0) ;
+
+    color: white;
+    font-size: 25px;
+    text-align: center;
+
+    width: 70px;
+    line-height: 50px;
+    margin: 10px;
+}
+
+
+.submit-button {
+	margin: 20px 10px;
+
+	border: none;
+	text-decoration: none;
+	font-family: "Lato", sans-serif;
+	font-weight: 600;
+	font-size: 20px;
+	color: white;
+    transform: translate(0px,0px);
+	background: rgb(255, 136, 0);
+    transition: background 2s, padding 2s ease;
+}
+.submit-button:hover
+{
+    background: rgb(121, 97, 10);
+    padding: 20px 30px;
+    
+}
+
+#Boomer
+{
+    animation: boomer 4s linear 0s  infinite   alternate-reverse 
+}
+
+@keyframes boomer
+{
+    0%
+    {
+        background: orange;
+        transform: translate(0px,0px);
+    }
+    50%
+    {
+        background: rgb(223, 222, 165) ;
+        transform: translate(10px,10px);
+    }
+    100%
+    {
+        background: rgb(182, 147, 83);
+        transform: translate(20px,20px);
+    }
 }
